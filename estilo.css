@@ -1,0 +1,28 @@
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foto{
+    margin: 0;
+    width: 150vh;
+    height: 70vh; /* 100% da altura da tela */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+}
+
+.foto2{
+    margin: 0;
+    width: 20vh;
+    height: 20vh;
+    background-size: cover; 
+}
+
+.tipo-servico{
+    display: flex;
+    justify-content: center;
+}
+
+.foto2{
+    display: flex;
+    justify-content: center;
+}
