@@ -37,7 +37,7 @@ console.log(nomeCompleto)
 // document.write("Seja bem vindo(a) " + nomeCompleto)
 
 
-let cor = prompt ("Informe uma cor: \n 1 azul \n 2 vermelho \n 3 preto")
+let cor = prompt ("Informe uma cor: \n 1 azul \n 2 vermelho \n 3 preto \n 4 Tomato \n 5 Rosa \n 6 Laranja")
 let corDeFundo = null
 
 if(cor == "1"){
