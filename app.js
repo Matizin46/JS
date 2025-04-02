@@ -27,3 +27,15 @@ if(cor == "1"){
 document.body.style.backgroundColor = corDeFundo
 }
 
+function fnMostrarHoraAtual(){
+    let agora = new Date(); // Obtém a data e hora atual
+    let horaFormatada = agora.toLocaleTimeString(); // Formata para exibição
+    alert("Hora atual: " + horaFormatada); // Exibe a hora no alert
+}
+
+function fnTrocarTitulo(){
+    let nomeDoTitulo = prompt("Digite o novo título:");
+    if (nomeDoTitulo) { // Verifica se o usuário digitou algo
+        document.getElementById("titulo").textContent = nomeDoTitulo;
+    }
+}
