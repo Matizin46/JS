@@ -57,3 +57,15 @@ function fnIdiomaItaliano(){
     document.getElementById("menu2").innerText = "SERVIZI"
     document.getElementById("menu3").innerText = "CONTATTO"
 }   
+
+function fnBaner1(){
+    document.getElementById("baner").src="imagens/pexels-igor-ovsyannykov-56123-205961.jpg"
+}
+
+function fnBaner2(){
+    document.getElementById("baner").src="imagens/baner2.jpg"
+}
+
+function fnBaner3(){
+    document.getElementById("baner").src="imagens/baner3.jpg"
+}
