@@ -39,3 +39,21 @@ function fnTrocarTitulo(){
         document.getElementById("titulo").textContent = nomeDoTitulo;
     }
 }
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL"
+    document.getElementById("menu2").innerText = "SERVIÇOS"
+    document.getElementById("menu3").innerText = "CONTATO"
+}   
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME"
+    document.getElementById("menu2").innerText = "SERVICES"
+    document.getElementById("menu3").innerText = "CONTACT"
+}   
+
+function fnIdiomaItaliano(){
+    document.getElementById("menu1").innerText = "INIZIALE"
+    document.getElementById("menu2").innerText = "SERVIZI"
+    document.getElementById("menu3").innerText = "CONTATTO"
+}   
