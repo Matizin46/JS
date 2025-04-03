@@ -69,3 +69,11 @@ function fnBaner2(){
 function fnBaner3(){
     document.getElementById("baner").src="imagens/baner3.jpg"
 }
+
+function fnDestaque1Troca(){
+    document.getElementById("destaque1").src="imagens/Troca1.jpg"
+}
+
+function fnDestaque1Original(){
+    document.getElementById("destaque1").src="imagens/pexels-raudys-808941.jpg"
+}
