@@ -77,3 +77,16 @@ function fnDestaque1Troca(){
 function fnDestaque1Original(){
     document.getElementById("destaque1").src="imagens/pexels-raudys-808941.jpg"
 }
+
+function fnRegistrarContato(){
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value
+    let informacoesCompleta = nome + " - " + email + "<br>" + mensagem
+    document.getElementById("informacoes").innerHTML = informacoesCompleta
+
+    //Limpar os campos
+    document.getElementById("nome").value = " "
+    document.getElementById("email").value = " "
+    document.getElementById("mensagem").value = " "
+}
